@@ -1,5 +1,4 @@
 import logging
-import os
 import requests
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
@@ -9,8 +8,8 @@ from telegram.ext import (
 # ============================================================
 #  CONFIGURATION
 # ============================================================
-TELEGRAM_TOKEN   = os.environ.get"8665063398:AAFalhEc0o0543L74us3hX3wEpo10aO6WMk"
-RAPIDAPI_KEY     = os.environ.get"571591e6fbmsh2b109dd94235c7bp1f5fdbjsnb6d667f5b5df"
+TELEGRAM_TOKEN   = "8665063398:AAFalhEc0o0543L74us3hX3wEpo10aO6WMk"
+RAPIDAPI_KEY     = "571591e6fbmsh2b109dd94235c7bp1f5fdbjsnb6d667f5b5df"
 RAPIDAPI_HOST    = "api-football-v1.p.rapidapi.com"
 
 logging.basicConfig(
